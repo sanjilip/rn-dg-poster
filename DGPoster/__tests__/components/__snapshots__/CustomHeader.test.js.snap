@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test CustomHeader renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "black",
+      "height": 40,
+      "marginBottom": 10,
+    }
+  }
+>
+  <Image
+    resizeMode="cover"
+    style={
+      {
+        "bottom": 0,
+        "left": 0,
+        "opacity": 0.5,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "bottom": 0,
+        "flexDirection": "row",
+        "left": 0,
+        "paddingHorizontal": 10,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <TouchableOpacity>
+      <Image
+        style={
+          {
+            "height": 18,
+            "marginRight": 15,
+            "width": 18,
+          }
+        }
+      />
+    </TouchableOpacity>
+    <Text
+      style={
+        {
+          "color": "#fff",
+          "fontSize": 18,
+          "textAlign": "center",
+        }
+      }
+    />
+    <TouchableOpacity
+      style={
+        {
+          "alignItems": "flex-end",
+          "flex": 1,
+          "height": 23,
+          "width": 23,
+        }
+      }
+    >
+      <Image
+        style={
+          {
+            "alignItems": "flex-end",
+            "flex": 1,
+            "height": 23,
+            "width": 23,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </View>
+</View>
+`;

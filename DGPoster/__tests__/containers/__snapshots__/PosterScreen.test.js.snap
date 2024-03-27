@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test PosterScreen Component renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "black",
+      "flex": 1,
+    }
+  }
+>
+  <CustomHeader
+    backgroundImage={
+      {
+        "testUri": "../../../app/resources/images/nav_bar.png",
+      }
+    }
+    leftActionCalled={[Function]}
+    leftIcon={
+      {
+        "testUri": "../../../app/resources/images/back.png",
+      }
+    }
+    rightActionCalled={[Function]}
+    rightIcon={
+      {
+        "testUri": "../../../app/resources/images/search.png",
+      }
+    }
+    title="Romantic Comedy"
+  />
+  <FlatList
+    contentContainerStyle={
+      {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+      }
+    }
+    data={
+      [
+        {
+          "name": "The Birds",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster1.jpg",
+        },
+      ]
+    }
+    keyExtractor={[Function]}
+    numColumns={3}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.8}
+    renderItem={[Function]}
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "backgroundColor": "black",
+        "flex": 1,
+        "marginHorizontal": 5,
+      }
+    }
+  />
+</RCTSafeAreaView>
+`;
